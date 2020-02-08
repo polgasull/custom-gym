@@ -55,4 +55,37 @@
   </div>
 </section>
 
+<section class="coaches">
+  <div class="container section">
+    <h2 class="text-center">Our coaches</h2>
+    <p class="text-center">Professional coaches to achieve your objectives</p>
+    <ul class="coaches-list">
+      <?php
+        $args = array(
+          'post_type' => 'coaches_post_type',
+          'posts_per_page' => 30
+        );
+        $coahes = new WP_Query($args);
+        while($coahes->have_posts()): $coahes->the_post();
+      ?>
+      <li class="coach">
+        <?php the_post_thumbnail('medium_size') ?>
+        <div class="content text-center">
+          <h3><?php the_title(); ?></h3>
+          <?php the_content(); ?>
+          <div class="speciality">
+            <?php 
+              $specialties = get_field('specialties');
+              foreach($specialties as $specialty): ?>
+                <span class="tag"> <?php echo esc_html($specialty); ?></span>
+              <?php endforeach; ?>
+          </div>
+        </div>
+      </li>
+
+      <?php endwhile; wp_reset_postdata(); ?>
+    </ul>
+  </div>
+</section>
+
 <?php get_footer(); ?>

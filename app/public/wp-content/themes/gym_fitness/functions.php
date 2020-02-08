@@ -34,6 +34,7 @@
     wp_enqueue_style('card', get_template_directory_uri().'/css/card.css', array(), '1.0.1');
     wp_enqueue_style('gallery', get_template_directory_uri().'/css/gallery.css', array(), '1.0.1');
     wp_enqueue_style('workouts_list', get_template_directory_uri().'/css/workouts_list.css', array(), '1.0.1');
+    wp_enqueue_style('coaches_list', get_template_directory_uri().'/css/coaches_list.css', array(), '1.0.1');
     wp_enqueue_style('front_page', get_template_directory_uri().'/css/front_page.css', array(), '1.0.1');
     wp_enqueue_style('slicknavCSS', get_template_directory_uri().'/css/slicknav.css', array(), '1.0.1');
     if(is_page('gallery')):

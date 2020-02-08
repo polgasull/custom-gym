@@ -1,0 +1,90 @@
+@media (min-width: 768px) {
+  .page.with-sidebar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .with-sidebar .main-content {
+    flex: 0 0 calc(70% - 2rem);
+  }
+
+  .with-sidebar .sidebar {
+    flex: 0 0 calc(30% - 2rem);
+  }
+}
+
+.without-sidebar {
+  display: block;
+  justify-content: center;
+}
+
+.without-sidebar .main-content {
+  flex: 0 1 800px;
+}
+
+.sidebar {
+  margin: 4rem 0;
+}
+
+.workouts-sidebar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--lightGrey);
+}
+
+.workouts-sidebar:last-of-type {
+  border-bottom: none;
+}
+
+.workouts-sidebar .image {
+  flex: 0 0 30%;
+}
+
+.workouts-sidebar .image img {
+  display: block
+}
+
+.workouts-sidebar .workout-content {
+  flex: 0 0 calc(70% - 2rem);
+}
+
+.workouts-sidebar .workout-content h3 {
+  margin: 0;
+  font-size: 2.6rem;
+}
+
+.workouts-sidebar .workout-content a {
+  color: var(--darkGrey);
+}
+
+.workouts-sidebar .workout-content a:hover {
+  color: var(--primaryColor);
+}
+
+.workouts-sidebar .workout-content p {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.widget {
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--lightGrey)
+}
+
+.widget:first-of-type {
+  padding-top: 0;
+}
+
+.widget:last-of-type {
+  border: none;
+}
+
+.widget a {
+  color: var(--black);
+}
+
+.widget a:hover {
+  color: var(--primaryColor);
+}

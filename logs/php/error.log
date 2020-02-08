@@ -1,0 +1,206 @@
+[25-Dec-2019 08:33:49 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/functions.php on line 5
+[25-Dec-2019 08:33:52 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/functions.php on line 5
+[25-Dec-2019 08:34:00 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/functions.php on line 5
+[25-Dec-2019 08:34:04 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/functions.php on line 5
+[25-Dec-2019 08:34:06 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/functions.php on line 5
+[25-Dec-2019 08:34:22 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/functions.php on line 5
+[25-Dec-2019 09:25:33 UTC] PHP Parse error:  syntax error, unexpected '.0' (T_DNUMBER), expecting ')' in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/functions.php on line 13
+[28-Dec-2019 10:32:28 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/functions.php on line 5
+[28-Dec-2019 10:32:29 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/functions.php on line 5
+[05-Jan-2020 12:32:40 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/update.php on line 162
+[05-Jan-2020 12:32:40 UTC] PHP Stack trace:
+[05-Jan-2020 12:32:40 UTC] PHP   1. {main}() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-cron.php:0
+[05-Jan-2020 12:32:40 UTC] PHP   2. do_action_ref_array() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-cron.php:138
+[05-Jan-2020 12:32:40 UTC] PHP   3. WP_Hook->do_action() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/plugin.php:544
+[05-Jan-2020 12:32:40 UTC] PHP   4. WP_Hook->apply_filters() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:312
+[05-Jan-2020 12:32:40 UTC] PHP   5. wp_version_check() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:288
+[05-Jan-2020 12:32:40 UTC] PHP   6. trigger_error() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/update.php:162
+[06-Jan-2020 05:45:04 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/update.php on line 162
+[06-Jan-2020 05:45:04 UTC] PHP Stack trace:
+[06-Jan-2020 05:45:04 UTC] PHP   1. {main}() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-cron.php:0
+[06-Jan-2020 05:45:04 UTC] PHP   2. do_action_ref_array() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-cron.php:138
+[06-Jan-2020 05:45:04 UTC] PHP   3. WP_Hook->do_action() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/plugin.php:544
+[06-Jan-2020 05:45:04 UTC] PHP   4. WP_Hook->apply_filters() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:312
+[06-Jan-2020 05:45:04 UTC] PHP   5. wp_version_check() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:288
+[06-Jan-2020 05:45:04 UTC] PHP   6. trigger_error() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/update.php:162
+[06-Jan-2020 05:45:04 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/update.php on line 388
+[06-Jan-2020 05:45:04 UTC] PHP Stack trace:
+[06-Jan-2020 05:45:04 UTC] PHP   1. {main}() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-cron.php:0
+[06-Jan-2020 05:45:04 UTC] PHP   2. do_action_ref_array() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-cron.php:138
+[06-Jan-2020 05:45:04 UTC] PHP   3. WP_Hook->do_action() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/plugin.php:544
+[06-Jan-2020 05:45:04 UTC] PHP   4. WP_Hook->apply_filters() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:312
+[06-Jan-2020 05:45:04 UTC] PHP   5. wp_update_plugins() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:288
+[06-Jan-2020 05:45:04 UTC] PHP   6. trigger_error() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/update.php:388
+[06-Jan-2020 05:45:04 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/update.php on line 577
+[06-Jan-2020 05:45:04 UTC] PHP Stack trace:
+[06-Jan-2020 05:45:04 UTC] PHP   1. {main}() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-cron.php:0
+[06-Jan-2020 05:45:04 UTC] PHP   2. do_action_ref_array() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-cron.php:138
+[06-Jan-2020 05:45:04 UTC] PHP   3. WP_Hook->do_action() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/plugin.php:544
+[06-Jan-2020 05:45:04 UTC] PHP   4. WP_Hook->apply_filters() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:312
+[06-Jan-2020 05:45:04 UTC] PHP   5. wp_update_themes() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:288
+[06-Jan-2020 05:45:04 UTC] PHP   6. trigger_error() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/update.php:577
+[08-Jan-2020 19:10:28 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/update.php on line 162
+[08-Jan-2020 19:10:28 UTC] PHP Stack trace:
+[08-Jan-2020 19:10:28 UTC] PHP   1. {main}() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-cron.php:0
+[08-Jan-2020 19:10:28 UTC] PHP   2. do_action_ref_array() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-cron.php:138
+[08-Jan-2020 19:10:28 UTC] PHP   3. WP_Hook->do_action() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/plugin.php:544
+[08-Jan-2020 19:10:28 UTC] PHP   4. WP_Hook->apply_filters() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:312
+[08-Jan-2020 19:10:28 UTC] PHP   5. wp_version_check() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:288
+[08-Jan-2020 19:10:28 UTC] PHP   6. trigger_error() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/update.php:162
+[08-Jan-2020 19:10:28 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/update.php on line 388
+[08-Jan-2020 19:10:28 UTC] PHP Stack trace:
+[08-Jan-2020 19:10:28 UTC] PHP   1. {main}() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-cron.php:0
+[08-Jan-2020 19:10:28 UTC] PHP   2. do_action_ref_array() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-cron.php:138
+[08-Jan-2020 19:10:28 UTC] PHP   3. WP_Hook->do_action() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/plugin.php:544
+[08-Jan-2020 19:10:28 UTC] PHP   4. WP_Hook->apply_filters() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:312
+[08-Jan-2020 19:10:28 UTC] PHP   5. wp_update_plugins() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:288
+[08-Jan-2020 19:10:28 UTC] PHP   6. trigger_error() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/update.php:388
+[08-Jan-2020 19:10:28 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/update.php on line 577
+[08-Jan-2020 19:10:28 UTC] PHP Stack trace:
+[08-Jan-2020 19:10:28 UTC] PHP   1. {main}() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-cron.php:0
+[08-Jan-2020 19:10:28 UTC] PHP   2. do_action_ref_array() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-cron.php:138
+[08-Jan-2020 19:10:28 UTC] PHP   3. WP_Hook->do_action() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/plugin.php:544
+[08-Jan-2020 19:10:28 UTC] PHP   4. WP_Hook->apply_filters() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:312
+[08-Jan-2020 19:10:28 UTC] PHP   5. wp_update_themes() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php:288
+[08-Jan-2020 19:10:28 UTC] PHP   6. trigger_error() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/update.php:577
+[12-Jan-2020 18:11:23 UTC] PHP Warning:  require(/Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitnessincludes/queries.php): failed to open stream: No such file or directory in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/functions.php on line 4
+[12-Jan-2020 18:11:23 UTC] PHP Stack trace:
+[12-Jan-2020 18:11:23 UTC] PHP   1. {main}() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:0
+[12-Jan-2020 18:11:23 UTC] PHP   2. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:22
+[12-Jan-2020 18:11:23 UTC] PHP   3. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-load.php:37
+[12-Jan-2020 18:11:23 UTC] PHP   4. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-config.php:77
+[12-Jan-2020 18:11:23 UTC] PHP   5. include() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-settings.php:497
+[12-Jan-2020 18:11:23 UTC] PHP Fatal error:  require(): Failed opening required '/Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitnessincludes/queries.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/functions.php on line 4
+[12-Jan-2020 18:11:23 UTC] PHP Stack trace:
+[12-Jan-2020 18:11:23 UTC] PHP   1. {main}() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:0
+[12-Jan-2020 18:11:23 UTC] PHP   2. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:22
+[12-Jan-2020 18:11:23 UTC] PHP   3. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-load.php:37
+[12-Jan-2020 18:11:23 UTC] PHP   4. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-config.php:77
+[12-Jan-2020 18:11:23 UTC] PHP   5. include() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-settings.php:497
+[12-Jan-2020 18:12:32 UTC] PHP Warning:  require(/Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitnessincludes/queries.php): failed to open stream: No such file or directory in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/functions.php on line 4
+[12-Jan-2020 18:12:32 UTC] PHP Stack trace:
+[12-Jan-2020 18:12:32 UTC] PHP   1. {main}() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:0
+[12-Jan-2020 18:12:32 UTC] PHP   2. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:22
+[12-Jan-2020 18:12:32 UTC] PHP   3. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-load.php:37
+[12-Jan-2020 18:12:32 UTC] PHP   4. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-config.php:77
+[12-Jan-2020 18:12:32 UTC] PHP   5. include() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-settings.php:497
+[12-Jan-2020 18:12:32 UTC] PHP Fatal error:  require(): Failed opening required '/Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitnessincludes/queries.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/functions.php on line 4
+[12-Jan-2020 18:12:32 UTC] PHP Stack trace:
+[12-Jan-2020 18:12:32 UTC] PHP   1. {main}() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:0
+[12-Jan-2020 18:12:32 UTC] PHP   2. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:22
+[12-Jan-2020 18:12:32 UTC] PHP   3. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-load.php:37
+[12-Jan-2020 18:12:32 UTC] PHP   4. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-config.php:77
+[12-Jan-2020 18:12:32 UTC] PHP   5. include() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-settings.php:497
+[12-Jan-2020 18:12:35 UTC] PHP Warning:  require(/Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitnessincludes/queries.php): failed to open stream: No such file or directory in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/functions.php on line 4
+[12-Jan-2020 18:12:35 UTC] PHP Stack trace:
+[12-Jan-2020 18:12:35 UTC] PHP   1. {main}() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/index.php:0
+[12-Jan-2020 18:12:35 UTC] PHP   2. require() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/index.php:17
+[12-Jan-2020 18:12:35 UTC] PHP   3. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-blog-header.php:13
+[12-Jan-2020 18:12:35 UTC] PHP   4. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-load.php:37
+[12-Jan-2020 18:12:35 UTC] PHP   5. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-config.php:77
+[12-Jan-2020 18:12:35 UTC] PHP   6. include() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-settings.php:497
+[12-Jan-2020 18:12:35 UTC] PHP Fatal error:  require(): Failed opening required '/Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitnessincludes/queries.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/functions.php on line 4
+[12-Jan-2020 18:12:35 UTC] PHP Stack trace:
+[12-Jan-2020 18:12:35 UTC] PHP   1. {main}() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/index.php:0
+[12-Jan-2020 18:12:35 UTC] PHP   2. require() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/index.php:17
+[12-Jan-2020 18:12:35 UTC] PHP   3. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-blog-header.php:13
+[12-Jan-2020 18:12:35 UTC] PHP   4. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-load.php:37
+[12-Jan-2020 18:12:35 UTC] PHP   5. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-config.php:77
+[12-Jan-2020 18:12:35 UTC] PHP   6. include() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-settings.php:497
+[12-Jan-2020 18:12:53 UTC] PHP Warning:  require(/Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitnessincludes/queries.php): failed to open stream: No such file or directory in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/functions.php on line 4
+[12-Jan-2020 18:12:53 UTC] PHP Stack trace:
+[12-Jan-2020 18:12:53 UTC] PHP   1. {main}() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/index.php:0
+[12-Jan-2020 18:12:53 UTC] PHP   2. require() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/index.php:17
+[12-Jan-2020 18:12:53 UTC] PHP   3. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-blog-header.php:13
+[12-Jan-2020 18:12:53 UTC] PHP   4. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-load.php:37
+[12-Jan-2020 18:12:53 UTC] PHP   5. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-config.php:77
+[12-Jan-2020 18:12:53 UTC] PHP   6. include() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-settings.php:497
+[12-Jan-2020 18:12:53 UTC] PHP Fatal error:  require(): Failed opening required '/Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitnessincludes/queries.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/functions.php on line 4
+[12-Jan-2020 18:12:53 UTC] PHP Stack trace:
+[12-Jan-2020 18:12:53 UTC] PHP   1. {main}() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/index.php:0
+[12-Jan-2020 18:12:53 UTC] PHP   2. require() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/index.php:17
+[12-Jan-2020 18:12:53 UTC] PHP   3. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-blog-header.php:13
+[12-Jan-2020 18:12:53 UTC] PHP   4. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-load.php:37
+[12-Jan-2020 18:12:53 UTC] PHP   5. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-config.php:77
+[12-Jan-2020 18:12:53 UTC] PHP   6. include() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-settings.php:497
+[12-Jan-2020 18:13:32 UTC] PHP Warning:  require(/Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitnessincludes/queries.php): failed to open stream: No such file or directory in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/functions.php on line 4
+[12-Jan-2020 18:13:32 UTC] PHP Stack trace:
+[12-Jan-2020 18:13:32 UTC] PHP   1. {main}() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:0
+[12-Jan-2020 18:13:32 UTC] PHP   2. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:22
+[12-Jan-2020 18:13:32 UTC] PHP   3. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-load.php:37
+[12-Jan-2020 18:13:32 UTC] PHP   4. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-config.php:77
+[12-Jan-2020 18:13:32 UTC] PHP   5. include() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-settings.php:497
+[12-Jan-2020 18:13:32 UTC] PHP Fatal error:  require(): Failed opening required '/Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitnessincludes/queries.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/functions.php on line 4
+[12-Jan-2020 18:13:32 UTC] PHP Stack trace:
+[12-Jan-2020 18:13:32 UTC] PHP   1. {main}() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:0
+[12-Jan-2020 18:13:32 UTC] PHP   2. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-admin/admin-ajax.php:22
+[12-Jan-2020 18:13:32 UTC] PHP   3. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-load.php:37
+[12-Jan-2020 18:13:32 UTC] PHP   4. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-config.php:77
+[12-Jan-2020 18:13:32 UTC] PHP   5. include() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-settings.php:497
+[12-Jan-2020 18:13:34 UTC] PHP Warning:  require(/Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitnessincludes/queries.php): failed to open stream: No such file or directory in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/functions.php on line 4
+[12-Jan-2020 18:13:34 UTC] PHP Stack trace:
+[12-Jan-2020 18:13:34 UTC] PHP   1. {main}() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/index.php:0
+[12-Jan-2020 18:13:34 UTC] PHP   2. require() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/index.php:17
+[12-Jan-2020 18:13:34 UTC] PHP   3. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-blog-header.php:13
+[12-Jan-2020 18:13:34 UTC] PHP   4. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-load.php:37
+[12-Jan-2020 18:13:34 UTC] PHP   5. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-config.php:77
+[12-Jan-2020 18:13:34 UTC] PHP   6. include() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-settings.php:497
+[12-Jan-2020 18:13:34 UTC] PHP Fatal error:  require(): Failed opening required '/Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitnessincludes/queries.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/functions.php on line 4
+[12-Jan-2020 18:13:34 UTC] PHP Stack trace:
+[12-Jan-2020 18:13:34 UTC] PHP   1. {main}() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/index.php:0
+[12-Jan-2020 18:13:34 UTC] PHP   2. require() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/index.php:17
+[12-Jan-2020 18:13:34 UTC] PHP   3. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-blog-header.php:13
+[12-Jan-2020 18:13:34 UTC] PHP   4. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-load.php:37
+[12-Jan-2020 18:13:34 UTC] PHP   5. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-config.php:77
+[12-Jan-2020 18:13:34 UTC] PHP   6. include() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-settings.php:497
+[19-Jan-2020 11:34:25 UTC] PHP Fatal error:  Uncaught Error: Class 'gymfitness_workouts_widget' not found in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/class-wp-widget-factory.php:71
+Stack trace:
+#0 /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/widgets.php(115): WP_Widget_Factory->register('gymfitness_work...')
+#1 /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/plugins/custom_widgets/custom_fitness_widget.php(112): register_widget('gymfitness_work...')
+#2 /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php(288): register_workouts_widget('')
+#3 /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#4 /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/widgets.php(1765): do_action('widgets_init')
+#6 /Users/polgasull/Wordpres in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/class-wp-widget-factory.php on line 71
+[19-Jan-2020 19:52:42 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/plugins/custom_widgets/workouts_widget.php on line 47
+[19-Jan-2020 20:40:15 UTC] PHP Warning:  explode() expects at least 2 parameters, 0 given in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/page-gallery.php on line 18
+[19-Jan-2020 20:40:15 UTC] PHP Stack trace:
+[19-Jan-2020 20:40:15 UTC] PHP   1. {main}() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/index.php:0
+[19-Jan-2020 20:40:15 UTC] PHP   2. require() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/index.php:17
+[19-Jan-2020 20:40:15 UTC] PHP   3. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-blog-header.php:19
+[19-Jan-2020 20:40:15 UTC] PHP   4. include() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/template-loader.php:98
+[19-Jan-2020 20:40:15 UTC] PHP   5. explode() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/page-gallery.php:18
+[19-Jan-2020 20:56:33 UTC] PHP Parse error:  syntax error, unexpected ',' in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/page-gallery.php on line 33
+[19-Jan-2020 23:27:46 UTC] PHP Parse error:  syntax error, unexpected ';' in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/functions.php on line 42
+[19-Jan-2020 23:27:51 UTC] PHP Parse error:  syntax error, unexpected ';' in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/functions.php on line 42
+[26-Jan-2020 10:30:22 UTC] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING), expecting ',' or ';' in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/includes/shortcodes.php on line 15
+[26-Jan-2020 10:30:22 UTC] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING), expecting ',' or ';' in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/includes/shortcodes.php on line 15
+[27-Jan-2020 21:22:55 UTC] PHP Parse error:  syntax error, unexpected '$image' (T_VARIABLE) in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/front-page.php on line 14
+[27-Jan-2020 21:23:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function exc_html() in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/front-page.php:17
+Stack trace:
+#0 /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/template-loader.php(98): include()
+#1 /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-blog-header.php(19): require_once('/Users/polgasul...')
+#2 /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/index.php(17): require('/Users/polgasul...')
+#3 {main}
+  thrown in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/front-page.php on line 17
+[27-Jan-2020 21:24:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function exc_html() in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/front-page.php:16
+Stack trace:
+#0 /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/template-loader.php(98): include()
+#1 /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-blog-header.php(19): require_once('/Users/polgasul...')
+#2 /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/index.php(17): require('/Users/polgasul...')
+#3 {main}
+  thrown in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/front-page.php on line 16
+[27-Jan-2020 21:25:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function exc_html() in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/front-page.php:16
+Stack trace:
+#0 /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/template-loader.php(98): include()
+#1 /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-blog-header.php(19): require_once('/Users/polgasul...')
+#2 /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/index.php(17): require('/Users/polgasul...')
+#3 {main}
+  thrown in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/front-page.php on line 16
+[27-Jan-2020 21:25:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function exc_html() in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/front-page.php:16
+Stack trace:
+#0 /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/template-loader.php(98): include()
+#1 /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-blog-header.php(19): require_once('/Users/polgasul...')
+#2 /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/index.php(17): require('/Users/polgasul...')
+#3 {main}
+  thrown in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/front-page.php on line 16

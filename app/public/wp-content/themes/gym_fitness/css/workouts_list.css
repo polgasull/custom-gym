@@ -1,0 +1,25 @@
+@media (min-width: 786px) {
+  .workouts-list, .blog-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.blog-list .card .content {
+  padding: 0 2rem 2rem 2rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .blog-list .card .content {
+    text-align: left;
+  }
+}
+
+.workout-info {
+  font-weight: 700;
+  font-family: var(--secondaryFont);
+  font-size: 2.2rem;
+  text-align: center;
+}

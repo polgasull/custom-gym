@@ -1,0 +1,74 @@
+.reviews {
+  background: linear-gradient(
+    rgba(0,0,0,0.75),
+    rgba(0,0,0,0.75)
+  ), url(../img/testimonial-bg.jpg);
+  padding: 12rem 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.reviews-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.reviews-container .review {
+  color: var(--white);
+}
+
+.review blockquote {
+  position: relative;
+  padding-left: 12rem;
+}
+
+.review blockquote::before {
+  position: absolute;
+  content: '';
+  display: block;
+  top: 0;
+  left: 0;
+  width: 10rem;
+  height: 9rem;
+  background-image: url(../img/quote.svg);
+  background-repeat: no-repeat;
+}
+
+.review-footer {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .review-footer {
+    justify-content: flex-end;
+  }
+}
+
+.review-footer img {
+  margin-right: 2rem;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+
+.review-footer p {
+  font-weight: 700;
+  color: var(--primaryColor);
+}
+
+.reviews-container .bx-wrapper {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.reviews-container .bx-wrapper .bx-pager.bx-default-pager a,
+.reviews-container .bx-wrapper .bx-pager.bx-default-pager a:hover {
+  background: var(--white);
+}
+
+.reviews-container .bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: var(--primaryColor);
+}

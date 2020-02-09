@@ -88,4 +88,30 @@
   </div>
 </section>
 
+<section class="reviews">
+  <h2 class="text-center white-text">Reviews</h2>
+  <div class="reviews-container">
+    <ul class="reviews-list">
+      <?php 
+        $args = array(
+          'post_type' => 'reviews_post_type',
+          'posts_per_page' => 10
+        );
+        $reviews = new WP_Query($args);
+        while($reviews->have_posts()): $reviews->the_post();
+      ?>
+      <li class="review text-center">
+        <blockquote>
+          <?php the_content(); ?>
+        </blockquote>
+        <footer class="review-footer">
+          <?php the_post_thumbnail('thumbnail'); ?>
+          <p><?php the_title(); ?></p>
+        </footer>
+      </li>
+      <?php endwhile; wp_reset_postdata(); ?>
+    </ul>
+  </div>
+</section>
+
 <?php get_footer(); ?>

@@ -35,6 +35,7 @@
     wp_enqueue_style('gallery', get_template_directory_uri().'/css/gallery.css', array(), '1.0.1');
     wp_enqueue_style('workouts_list', get_template_directory_uri().'/css/workouts_list.css', array(), '1.0.1');
     wp_enqueue_style('coaches_list', get_template_directory_uri().'/css/coaches_list.css', array(), '1.0.1');
+    wp_enqueue_style('reviews_list', get_template_directory_uri().'/css/reviews_list.css', array(), '1.0.1');
     wp_enqueue_style('front_page', get_template_directory_uri().'/css/front_page.css', array(), '1.0.1');
     wp_enqueue_style('slicknavCSS', get_template_directory_uri().'/css/slicknav.css', array(), '1.0.1');
     if(is_page('gallery')):
@@ -42,6 +43,9 @@
     endif;
     if(is_page('contact')):
       wp_enqueue_style('leafletCSS', 'https://unpkg.com/leaflet@1.6.0/dist/leaflet.css', array(), '1.6.0');
+    endif;
+    if(is_page('home')):
+      wp_enqueue_style('bxSliderCSS', 'https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css', array(), '4.2.12');
     endif;
     wp_enqueue_style('normalize', get_template_directory_uri().'/css/normalize.css', array(), '8.0.1');
     wp_enqueue_style('googleFont', 'https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700,900|Staatliches&display=swap', array(), '1.0.0');
@@ -53,6 +57,9 @@
     if(is_page('contact')):
       wp_enqueue_script('leafletJS', 'https://unpkg.com/leaflet@1.6.0/dist/leaflet.js', '1.6.0', true);
       wp_enqueue_script('leafletJquery', get_template_directory_uri().'/js/jquery.leaflet.js', array('jquery'), '1.0.0', true);
+    endif;
+    if(is_page('home')):
+      wp_enqueue_script('bxSliderJS', 'https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js', array('jquery'), '4.2.12', true);
     endif;
     wp_enqueue_script('scripts', get_template_directory_uri().'/js/scripts.js', array('jquery'), '1.0.0', true);
   };

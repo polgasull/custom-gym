@@ -456,3 +456,10 @@ Stack trace:
 [08-Feb-2020 20:23:09 UTC] PHP   2. require() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/index.php:17
 [08-Feb-2020 20:23:09 UTC] PHP   3. require_once() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-blog-header.php:19
 [08-Feb-2020 20:23:09 UTC] PHP   4. include() /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/template-loader.php:98
+[09-Feb-2020 21:47:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_tile() in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/front-page.php:109
+Stack trace:
+#0 /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-includes/template-loader.php(98): include()
+#1 /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-blog-header.php(19): require_once('/Users/polgasul...')
+#2 /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/index.php(17): require('/Users/polgasul...')
+#3 {main}
+  thrown in /Users/polgasull/Wordpress/Local Sites/gymfitness/app/public/wp-content/themes/gym_fitness/front-page.php on line 109

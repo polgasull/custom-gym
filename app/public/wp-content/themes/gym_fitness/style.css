@@ -101,6 +101,10 @@ img {
   text-align: left;
 }
 
+.white-text {
+  color: var(--white);
+}
+
 section {
   padding: 5rem 0;
 }

@@ -122,3 +122,58 @@ function workout_coaches() {
 
 }
 add_action( 'init', 'workout_coaches', 0 );
+
+function workout_reviews() {
+
+	$labels = array(
+		'name'                  => _x( 'Reviews', 'Post Type General Name', 'gymfitness' ),
+		'singular_name'         => _x( 'Review', 'Post Type Singular Name', 'gymfitness' ),
+		'menu_name'             => __( 'Reviews', 'gymfitness' ),
+		'name_admin_bar'        => __( 'Review', 'gymfitness' ),
+		'archives'              => __( 'Archive', 'gymfitness' ),
+		'attributes'            => __( 'Attributes', 'gymfitness' ),
+		'parent_item_colon'     => __( 'Parent Review', 'gymfitness' ),
+		'all_items'             => __( 'All Reviews', 'gymfitness' ),
+		'add_new_item'          => __( 'Add Review', 'gymfitness' ),
+		'add_new'               => __( 'Add new Review', 'gymfitness' ),
+		'new_item'              => __( 'New Review', 'gymfitness' ),
+		'edit_item'             => __( 'Edit Review', 'gymfitness' ),
+		'update_item'           => __( 'Update Review', 'gymfitness' ),
+		'view_item'             => __( 'View Review', 'gymfitness' ),
+		'view_items'            => __( 'View Reviews', 'gymfitness' ),
+		'search_items'          => __( 'Find Review', 'gymfitness' ),
+		'not_found'             => __( 'Not found', 'gymfitness' ),
+		'not_found_in_trash'    => __( 'Not found on Trash', 'gymfitness' ),
+		'featured_image'        => __( 'Featured image', 'gymfitness' ),
+		'set_featured_image'    => __( 'Save Featured image', 'gymfitness' ),
+		'remove_featured_image' => __( 'Delete Featured image', 'gymfitness' ),
+		'use_featured_image'    => __( 'Use as Featured image', 'gymfitness' ),
+		'insert_into_item'      => __( 'Insert Review', 'gymfitness' ),
+		'uploaded_to_this_item' => __( 'Add on Review', 'gymfitness' ),
+		'items_list'            => __( 'Reviews list', 'gymfitness' ),
+		'items_list_navigation' => __( 'Reviews nav', 'gymfitness' ),
+		'filter_items_list'     => __( 'Filtrar Reviews', 'gymfitness' ),
+	);
+	$args = array(
+		'label'                 => __( 'Reviews', 'gymfitness' ),
+		'description'           => __( 'Workout reviews', 'gymfitness' ),
+		'labels'                => $labels,
+		'supports'              => array( 'title', 'editor', 'thumbnail' ),
+		'hierarchical'          => false,
+		'public'                => true,
+		'show_ui'               => true,
+		'show_in_menu'          => true,
+        'menu_position'         => 8,
+        'menu_icon'             => 'dashicons-editor-quote',
+		'show_in_admin_bar'     => true,
+		'show_in_nav_menus'     => true,
+		'can_export'            => true,
+		'has_archive'           => false,
+		'exclude_from_search'   => false,
+		'publicly_queryable'    => true,
+		'capability_type'       => 'page',
+	);
+	register_post_type( 'reviews_post_type', $args );
+
+}
+add_action( 'init', 'workout_reviews', 0 );

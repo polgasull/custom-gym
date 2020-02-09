@@ -60,6 +60,7 @@
     endif;
     if(is_page('home')):
       wp_enqueue_script('bxSliderJS', 'https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js', array('jquery'), '4.2.12', true);
+      wp_enqueue_script('bxSliderJquery', get_template_directory_uri().'/js/jquery.bxSlider.js', array('jquery'), '1.0.0', true);
     endif;
     wp_enqueue_script('scripts', get_template_directory_uri().'/js/scripts.js', array('jquery'), '1.0.0', true);
   };

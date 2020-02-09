@@ -3,10 +3,4 @@ jQuery(document).ready( $ => {
     label: '',
     appendTo: '.nav-bar'
   }); 
-
-  $('.reviews-list').bxSlider({
-    auto: true,
-    mode: 'fade',
-    controls: false
-  });
 });

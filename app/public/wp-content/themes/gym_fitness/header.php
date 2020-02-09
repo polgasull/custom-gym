@@ -13,7 +13,9 @@
     <div class="container">
       <div class="nav-bar">
         <div class="logo">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="navbar-logo">
+          <a href="<?php echo esc_url(site_url('/')); ?>">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="navbar-logo">
+          </a>
         </div>
 
         <?php

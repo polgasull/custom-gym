@@ -10,6 +10,7 @@ body.home .site-header {
 @media (min-width: 768px) {
   body.home .site-header {
     height: 100vh;
+    max-height: 900px;
   }
 
   .header-grid {
@@ -66,4 +67,26 @@ body.home .site-header {
 .nav-bar {
   display: flex;
   justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  body.ft-active {
+    margin-top: 4rem;
+  }
+
+  .fixed-top {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--darkGrey);
+    padding: 1rem 5rem;
+    height: 10rem;
+    z-index: 10000;
+    transition: all .3s ease;
+  }
+
+  .fixed-top img {
+    width: 12rem;
+  }
 }
